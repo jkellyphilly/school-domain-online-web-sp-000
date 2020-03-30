@@ -15,8 +15,10 @@ class School
     end
   end
 
-  def grade
+  def grade(grade)
+    @roster[grade].each do |student|
 
+    end
   end
 
 end
