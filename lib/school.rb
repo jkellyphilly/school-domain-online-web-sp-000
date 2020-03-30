@@ -15,8 +15,12 @@ class School
     end
   end
 
+  # return the array of all students
+  # that are in the given grade
   def grade(grade)
     @roster[grade]
   end
+
+
 
 end
