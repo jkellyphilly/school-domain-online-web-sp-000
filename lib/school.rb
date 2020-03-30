@@ -6,6 +6,7 @@ class School
     @roster = {}
   end
 
+  # add a student to the grade's list
   def add_student(student_name, grade)
     if @roster.has_key?(grade)
       @roster[grade] << student_name
