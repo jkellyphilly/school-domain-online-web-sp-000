@@ -24,7 +24,7 @@ class School
 
   # alphabetically sort students in each grade
   def sort
-    @roster.each do |grade, students| 
+    @roster.each do |grade, students|
       students.sort
     end
   end
