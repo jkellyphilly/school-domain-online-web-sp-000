@@ -22,6 +22,8 @@ class School
     @roster[grade]
   end
 
+  # sort students in each grade
+  # alphabetically
   def sort
 
   end
