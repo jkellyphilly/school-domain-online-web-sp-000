@@ -24,8 +24,9 @@ class School
 
   # alphabetically sort students in each grade
   def sort
+    return_hash = {}
     @roster.each do |grade, students|
-      students.sort
+      return_hash[grade] = students.sort
     end
   end
 
