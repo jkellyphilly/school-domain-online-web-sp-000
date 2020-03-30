@@ -24,7 +24,9 @@ class School
 
   # alphabetically sort students in each grade
   def sort
-    updated_roster = @roster.collect {|grade, students| students.sort}
+    @roster.each do |grade, students| 
+      students.sort
+    end
   end
 
 end
